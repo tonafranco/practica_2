@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         x = 0
         do {
             Log.i("Basics", x.toString())
-
+            //Toast.makeText(this, "Valor de x = $x", Toast.LENGTH_SHORT).show()
         }while (x < 5)
 
     }
